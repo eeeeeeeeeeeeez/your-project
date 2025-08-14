@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "email": "ded",
+      "username": "",
+      "password": "$2b$10$vWqaLg718/17Rwfy0IA1ceeAt/lV7nrVHAIZDDUAwb6FRYslvPvkW",
+      "verified": false,
+      "code": "9586"
+    }
+  ],
+  "tasks": []
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>三角洲平台</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div id="auth" class="card">
+    <h2>註冊</h2>
+    <input id="email" placeholder="Email">
+    <input id="username" placeholder="名稱">
+    <input id="password" type="password" placeholder="密碼">
+    <button onclick="register()">註冊</button>
+
+    <div id="verifySection" style="display:none">
+      <input id="verifyCode" placeholder="驗證碼">
+      <button onclick="verifyEmail()">驗證</button>
+    </div>
+
+    <h2>登入</h2>
+    <input id="loginEmail" placeholder="Email">
+    <input id="loginPassword" type="password" placeholder="密碼">
+    <button onclick="login()">登入</button>
+  </div>
+
+  <div id="main" class="card" style="display:none">
+    <h2>任務列表</h2>
+    <ul id="taskList"></ul>
+
+    <h3>發布任務</h3>
+    <input id="taskTitle" placeholder="任務名稱">
+    <input id="taskCreator" placeholder="你的名稱">
+    <button onclick="createTask()">發布</button>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
